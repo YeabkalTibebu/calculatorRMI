@@ -36,8 +36,10 @@ public class CalculatorImpl extends UnicastRemoteObject implements Calculator {
             Calculator calc = new CalculatorImpl();
             Naming.rebind("CalculatorService", calc);
             System.out.println("Calculator Server is running...");
+            System.out.println("Service name: CalculatorService");
         } catch (Exception e) {
             System.err.println("Server error: " + e);
+            e.printStackTrace();
         }
     }
 }
