@@ -12,6 +12,6 @@ Server: Run java CalculatorImpl
 Client: Run java CalculatorClient in a separate window.
 
 Project Files-
--CalculatorInterface.java: 
+-Calculator.java: 
 -CalculatorImpl.java: 
 -CalculatorClient.java:
